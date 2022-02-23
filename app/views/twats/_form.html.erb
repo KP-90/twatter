@@ -1,0 +1,22 @@
+<%= form_with(model: twat) do |form| %>
+  <% if twat.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(twat.errors.count, "error") %> prohibited this twat from being saved:</h2>
+
+      <ul>
+        <% twat.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :twat, style: "display: block" %>
+    <%= form.text_area :twat %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

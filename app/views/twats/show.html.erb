@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @twat %>
+
+<div>
+  <%= link_to "Edit this twat", edit_twat_path(@twat) %> |
+  <%= link_to "Back to twats", twats_path %>
+
+  <%= button_to "Destroy this twat", @twat, method: :delete %>
+</div>
