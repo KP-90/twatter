@@ -43,7 +43,8 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 gem 'bulma-rails', '~> 0.9.3'
 gem 'simple_form', '~> 5.1'
-
+gem 'gravatar_image_tag', '~> 1.2'
+gem 'devise', '~> 4.8', '>= 4.8.1'
 # Use Sass to process CSS
 # gem "sassc-rails"
 
