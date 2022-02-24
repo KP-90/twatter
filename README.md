@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Twiiter Clone
 
-Things you may want to cover:
+This the follow along for a twitter clone. Found at https://www.youtube.com/watch?v=ZxkbFOe3lRY
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Left off at 13:40

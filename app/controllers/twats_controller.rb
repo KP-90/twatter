@@ -1,6 +1,6 @@
 class TwatsController < ApplicationController
   before_action :set_twat, only: %i[ show edit update destroy ]
-
+  before_action :authenticate_user!, except: %i[ index show ]
   # GET /twats or /twats.json
   def index
     @twats = Twat.all.order("created_at DESC")
