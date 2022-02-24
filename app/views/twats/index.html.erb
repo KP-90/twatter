@@ -1,21 +1,9 @@
-<p style="color: green"><%= notice %></p>
-
-<h1>Twats</h1>
-
-<div id="twats">
-  <% @twats.each do |twat| %>
-    <%= render twat %>
-    <p>
-      <%= link_to "Show this twat", twat %>
-    </p>
-  <% end %>
-</div>
-
-<%= link_to "New twat", new_twat_path %>
 <section class="section">
   <div class="container">
     <div class="columns">
+      <%= render 'trends' %>
       <%= render 'feed' %>
+      <%= render "who-to-follow"  %>
     </div>
   </div>
 </section>
