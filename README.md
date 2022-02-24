@@ -4,4 +4,6 @@
 
 This the follow along for a twitter clone. Found at https://www.youtube.com/watch?v=ZxkbFOe3lRY
 
-Left off at 13:40
+github can be found at https://github.com/justalever/twittter
+
+Left off at ~17:00min in
