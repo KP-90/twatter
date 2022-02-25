@@ -1,4 +1,8 @@
-<div class="column is-one-quarter">
+<% if user_signed_in? %>
+    <div class="column">
+<% else %>
+    <div class="column is-one-quarter">
+<% end %>
     <nav class="panel">
         <p class="panel-heading">Trending</p>
         <a class="panel-block">

@@ -33,3 +33,8 @@
 .notification:not(:last-child) {
     margin-bottom: 0;
 }
+
+.helper {
+    border: 1px solid red;
+    width: 100%;
+}
