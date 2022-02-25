@@ -13,7 +13,7 @@ class TwatsController < ApplicationController
 
   # GET /twats/new
   def new
-    @twat = Twat.new
+    @twat = current_user.twats.build
   end
 
   # GET /twats/1/edit
@@ -22,7 +22,7 @@ class TwatsController < ApplicationController
 
   # POST /twats or /twats.json
   def create
-    @twat = Twat.new(twat_params)
+    @twat = current_user.twats.build(twat_params)
 
     respond_to do |format|
       if @twat.save
